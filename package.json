@@ -1,0 +1,11 @@
+{
+  "name": "qala-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QALA: secure app streaming with an AI Detection Engine (CORE TETYM, NeuroBridge.SI Baku 2026)",
+  "scripts": {
+    "test": "node --test core/qala_core.test.js",
+    "train": "node core/train_v2.js"
+  },
+  "engines": { "node": ">=18" }
+}
